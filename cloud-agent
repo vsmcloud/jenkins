@@ -5,6 +5,7 @@ amiid:  	ami-0e82959d4ed12de3f
 Security group names: launch-wizard-1
 Remote FS root: /home/ubuntu/jenkins-agent
 Remote ssh port: 22
+remote user: ubuntu
 
 init script:
   sudo apt update 
