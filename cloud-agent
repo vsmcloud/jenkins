@@ -1,0 +1,11 @@
+Amazon EC2 Credentials:  creds
+EC2 Key Pair's Private Key: ohio.pem
+amiid:  	ami-0e82959d4ed12de3f
+  Instance Type: t2micro
+Security group names: launch-wizard-1
+Remote FS root: /home/ubuntu/jenkins-agent
+Remote ssh port: 22
+
+init script:
+  sudo apt update 
+  sudo apt install default-jdk -y
